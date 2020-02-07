@@ -3,15 +3,6 @@ error_reporting(-1);
 
 require_once 'autoload.php';
 
-var_dump(spl_autoload_functions());
-spl_autoload_unregister('loadCustom');
-
-echo "<hr>";
-echo "<br>";
-var_dump(spl_autoload_functions());
-echo "<hr>";
-echo "<br>";
-
 //require_once ("Weapons.php");
 //require_once ("echo_dump.php");
 //require_once ("Equipment.php");
